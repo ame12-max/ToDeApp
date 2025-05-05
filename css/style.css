@@ -61,6 +61,35 @@ button{
     cursor: pointer;
   border-radius: 40px;
 }
+@media screen and (max-width: 500px){
+    .todo-app{
+        padding: 20px 10px 50px;
+    }
+    .todo-app h2{
+        font-size: 25px;
+    }
+    .todo-app h2 img{
+        width: 25px;
+    }
+    .row{
+        padding-left: 10px;
+        display: flex;
+      flex-wrap: wrap;
+    }
+    input{
+        flex: 1;
+        border: none;
+        outline: none;
+        background: transparent;
+        padding: 10px;
+        font-size: 14px;
+    }
+    button{
+        padding: 12px 30px;
+        font-size: 14px;
+        
+    }
+}
 ul li{
     list-style: none;
     font-size: 17px;
